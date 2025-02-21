@@ -24,6 +24,10 @@ public class Main {
         // Mostrar el saldo final después de añadir
         System.out.println("\nInformacion de la cuenta despues de los movimientos: ");
         cuenta.mostrarInformacion();
+
+        System.out.println(cuentaNueva.saldo);
+        System.out.println(cuentanueva.dni);
+        System.out.println(cuentaNueva.nombre);
               
         
         

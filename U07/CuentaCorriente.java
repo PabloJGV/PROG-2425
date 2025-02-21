@@ -2,6 +2,7 @@ package u07_a01;
 
 
 public class CuentaCorriente {
+    
     // Atributos de la cuenta corriente
     private String dni;
     private String nombre;
