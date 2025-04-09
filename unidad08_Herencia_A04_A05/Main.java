@@ -1,21 +1,16 @@
 package Musica;
 
 public class Main {
-    public static void main(String[] args) {
-        Piano p = new Piano();
+    public static void main(String[] args){
+        Piano yamaha = new Piano() ;
+        
+        yamaha.add("Do");
+        yamaha.add("Re");
+        yamaha.add("Mi");
+        yamaha.add("Fa");
+        yamaha.add("Sol");
+        
+        yamaha.interpretar();
 
-        p.add(Instrumento.notas.Mi);
-        p.add(Instrumento.notas.Fa);
-        p.add(Instrumento.notas.Sol);
-        p.add(Instrumento.notas.Re);
-        p.add(Instrumento.notas.Re);
-        p.add(Instrumento.notas.Si);
-        p.add(Instrumento.notas.Do);
-        p.add(Instrumento.notas.Re);
-        p.add(Instrumento.notas.Mi);
-        p.add(Instrumento.notas.Mi);
-        p.add(Instrumento.notas.Mi);
-
-        p.interpretar();
-    }
+    }  
 }

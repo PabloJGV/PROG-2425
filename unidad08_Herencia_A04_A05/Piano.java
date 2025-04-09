@@ -1,13 +1,10 @@
 package Musica;
+public class Piano extends Instrumento{
 
-public class Piano extends Instrumento {
-    public void interpretar() {
-        System.out.print("Melodía: ");
-
-        for (int j = 0; j < i; j++) {
-            System.out.print(melodia[j] + " ");
+    @Override
+    void interpretar(){
+        for (Notas nota : melodia){
+            System.out.println("Piano tocando la nota:" + nota);
         }
-
-        System.out.println();
     }
 }
